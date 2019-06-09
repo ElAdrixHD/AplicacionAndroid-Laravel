@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_margin="20dp">
+
+	<TextView
+	android:id="@+id/widget31"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Id:" />
+<TextView
+	android:id="@+id/idReserva"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp" />
+
+	<TextView
+		android:id="@+id/widget33"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="fecha_rserva" />
+
+	<EditText
+		android:id="@+id/fecha_reserva"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="date"
+		android:textSize="18sp"
+		android:focusable="false"
+		android:clickable="true"
+		android:maxLines="1"/>
+
+	<TextView
+		android:id="@+id/widget35"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="hora_inicio" />
+
+	<EditText
+		android:id="@+id/hora_inicio"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="time"
+		android:textSize="16sp"
+		android:focusable="false"
+		android:clickable="true"
+		android:maxLines="1"/>
+
+	<TextView
+		android:id="@+id/widget37"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="hora_fin" />
+
+	<EditText
+		android:id="@+id/hora_fin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="time"
+		android:textSize="16sp"
+		android:focusable="false"
+		android:clickable="true"
+		android:maxLines="1"/>
+<LinearLayout
+	android:id="@+id/widget39"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal">
+<Button
+	android:id="@+id/accept"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Accept" />
+<Button
+	android:id="@+id/cancel"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Cancel" />
+</LinearLayout>
+</LinearLayout>
